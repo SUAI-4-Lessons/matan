@@ -1,2 +1,6 @@
-#+TITLE: Sitemap for project site-org
+#+TITLE: Математический анализ
+#+INFOJS_OPT: view:info
+#+LANGUAGE: ru
+
+#+INCLUDE: ./functions/functions.org
 

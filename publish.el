@@ -18,16 +18,14 @@
       (list
        (list "site-org"
              :base-directory "."
-             :base-extension "org"
+             :include '("index.org")
              :publishing-function '(org-html-publish-to-html)
              :publishing-directory "./public"
-             :exclude (regexp-opt '("README" ""))
-             :auto-sitemap t
-             :sitemap-filename "index.org"
+             :exclude (regexp-opt '("README"))
+	     :auto-sitemap nil
              :sitemap-file-entry-format "%d *%t*"
              :html-head-extra "<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\"/>"
-             :sitemap-style 'list
-             :sitemap-sort-files 'anti-chronologically)
+             )
        (list "site-static"
              :base-directory "."
              :exclude "public/"
