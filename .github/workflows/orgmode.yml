@@ -35,7 +35,7 @@ jobs:
       - name: org export to html
         run: |
           emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
-          emacs --batch --no-init-file --funcall org-html-export-to-html
+          emacs --batch --no-init-file --load publish.el --funcall org-publish-all
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
