@@ -25,6 +25,33 @@
       font-family: \"Roboto\", serif;
       color: var(--ctp-latte-text);
   }
+
+  a{
+      color: var(--ctp-latte-lavender);
+  }
+
+  h1{
+      color: var(--ctp-latte-text)
+  }
+
+  h2{
+      color: var(--ctp-latte-subtext0)
+  }
+
+  
+  h3{
+      color: var(--ctp-latte-subtext1)
+  }
+
+  code{
+      font-family: \"Jetbrains Mono\", monospace;
+      background:  var(--ctp-latte-mantle);
+      color: var(--ctp-latte-flamingo);
+      border-radius: 5px;
+      padding-left: 4px;
+      padding-right: 4px;
+      font-size: small;
+  }
 </style>
 ")
 
