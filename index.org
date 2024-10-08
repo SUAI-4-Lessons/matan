@@ -1,6 +1,7 @@
 #+TITLE: Математический анализ
 #+INFOJS_OPT: view:info
 #+LANGUAGE: ru
+#+OPTIONS: broken-links:mark
 
 #+INCLUDE: ./functions/functions.org
 
