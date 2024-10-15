@@ -14,7 +14,11 @@ $$ \frac{\Delta y}{\Delta x} = f'(x) + \delta $$
 
 где \delta -- бесконечно малое
 
-$$ \Delta  $$
+$$ \Delta y = f'(x) \Delta x + \delta \Delta x $$
+
+$$ dy = f'(x) \Delta x $$
+
+$$ y = x \to  dy = \Delta x \to dx = \Delta x$$ 
 
 1. $d(u + v) = du + dv$
 2. $d(dv) = v \cdot du + u \cdot dv$
