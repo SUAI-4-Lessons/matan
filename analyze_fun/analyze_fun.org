@@ -18,7 +18,7 @@ $c$ на интервале (a;b) в которой $f'(c) = 0$.
 
 $$ \frac{f(b) - f(a)}{g(b) - g(a)} = \frac{f'(c)}{g'(c)} $$
 
-Условия: $g'(c) \neq = 0$, при любых x на промежутке (а;b)
+Условия: $g'(c) \neq 0$, при любых x на промежутке (а;b)
 
 *** Теорема Лагранжа
 
@@ -55,7 +55,7 @@ $$ f(x_0) = \phi(x_0) = 0 $$
 
 Пусть $\phi' (x) \neq 0$, если существует предел
 $\lim_{x \to x_0} \frac{f'(x)}{\phi' (x)} = l$,
-то $\lim_{x \to x_0} \frac{f(x)}{\phi (x)} = \lim_{x \to x_0} \frac{f'(x)}{\phi' (x)} = l $.
+то $\lim_{x \to x_0} \frac{f(x)}{\phi (x)} = \lim_{x \to x_0} \frac{f'(x)}{\phi' (x)} = l$.
 
 *** $[\frac{\infty}{\infty}]$
 
@@ -67,7 +67,7 @@ $$ \lim_{x \to x_0} f(x) = \lim_{x \to x_0} \phi(x) = \infty $$
 
 если существует предел
 $\lim_{x \to x_0} \frac{f'(x)}{\phi' (x)} = l$,
-то $\lim_{x \to x_0} \frac{f(x)}{\phi (x)} = \lim_{x \to x_0} \frac{f'(x)}{\phi' (x)} = l $.
+то $\lim_{x \to x_0} \frac{f(x)}{\phi (x)} = \lim_{x \to x_0} \frac{f'(x)}{\phi' (x)} = l$.
 
 
 *** Примеры
