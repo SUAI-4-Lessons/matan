@@ -10,3 +10,5 @@
 #+INCLUDE: ./dif/dif.org
 
 #+INCLUDE: ./analyze_fun/analyze_fun.org
+
+# #+INCLUDE: ./
