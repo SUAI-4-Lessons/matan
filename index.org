@@ -11,4 +11,6 @@
 
 #+INCLUDE: ./analyze_fun/analyze_fun.org
 
-# #+INCLUDE: ./dif/taylor.org
+#+INCLUDE: ./dif/taylor.org
+
+#+INCLUDE: ./integrals/integrals.org
