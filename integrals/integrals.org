@@ -1,7 +1,4 @@
-* Неопределённый интеграл                                            :ATTACH:
-:PROPERTIES:
-:ID:       dcd9b639-8ed5-46c7-a5b0-d8e01294bd3d
-:END:
+* Неопределённый интеграл                                        
 
 Функция $F(x)$ называется *первообразной* от функции $f(x)$, если для любого x из этого
 интервала (a;b) выполняется равенство:
@@ -103,8 +100,39 @@ $d (f(x)) = f'(x) dx$
 5. $\int \sin^2 6x dx = \frac{1}{2} \int (1 - \cos 12x) dx = \frac{1}{2} (x - \frac{1}{12} sin(12x)) + C$
 6. $\int \tg x dx = \int \frac{\sin x}{\cos x} dx = -\int \frac{d(cos x)}{cos x} = -\ln |cos x | + C$
 
-   
-
 ** Метод интегрирования подстановкой (замена переменной)
 
+Пусть требуется найти $\int f(x)dx$, $x = \varphi(t)$ -> $dx =
+d(\varphi'(t))$
+
+Получаем интеграл:
+
+$$ \int f(x) dx = \int f(\varphi(t)) \varphi'(t) dt $$
+
+** Метод интегрирования по частям
+
+$$ \int u dv = u \cdot v = \int v du  $$
+
+Интегралы вида:
+
+1. $\int P(x)e^(kx) dx$, $\int P(x) \sin kx dx$, $\int P(x) \cos kx
+   dx$
+
+   где:
+
+   - P(x) -- многочлен
+
+   - k -- число
+
+   - за u = P(x)
+
+2. $\int P(x) \arcsin kx dx$, $\int P(x) \arccos kx
+   dx$,  $\int P(x) \ln x dx$, $\int P(x) \ln \atan x dx$,
+   $\int P(x) \ln \actan x dx$,
+
+   где за $dv = P(x)dx$
+
+3.  $\int e^(ax) \sin bx dx$ $\int e^(ax) \cos bx dx$
+
+   где за $u = e^{ax}$
 
