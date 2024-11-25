@@ -115,7 +115,7 @@ $$ \int u dv = u \cdot v = \int v du  $$
 
 Интегралы вида:
 
-1. $\int P(x)e^(kx) dx$, $\int P(x) \sin kx dx$, $\int P(x) \cos kx
+1. $\int P(x)e^{(kx)} dx$, $\int P(x) \sin kx dx$, $\int P(x) \cos kx
    dx$
 
    где:
@@ -132,7 +132,7 @@ $$ \int u dv = u \cdot v = \int v du  $$
 
    где за $dv = P(x)dx$
 
-3.  $\int e^(ax) \sin bx dx$ $\int e^(ax) \cos bx dx$
+3.  $\int e^{(ax)} \sin bx dx$ $\int e^{(ax)} \cos bx dx$
 
    где за $u = e^{ax}$
 
