@@ -111,7 +111,7 @@ $$ \int f(x) dx = \int f(\varphi(t)) \varphi'(t) dt $$
 
 ** Метод интегрирования по частям
 
-$$ \int u dv = u \cdot v = \int v du  $$
+$$ \int u dv = u \cdot v - \int v du  $$
 
 Интегралы вида:
 
