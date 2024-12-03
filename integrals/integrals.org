@@ -65,6 +65,8 @@ $$ \int \ctan x dx = \ln|\sin x| + C $$
 $$ \sin^2f(x) = \frac{1 - \cos2f(x)}{2} $$
 $$ \cos^2f(x) = \frac{1 + \cos2f(x)}{2} $$
 
+
+
 [fn:2] Без k и b мы получим простой интеграл, также с помошью логики.
 
 
@@ -91,6 +93,8 @@ $\frac{1}{\cos^2 x}dx = d(\tan x)$
 
 $d (f(x)) = f'(x) dx$
 
+
+
 *** Пример
 
 1. $\int \frac{dx}{x+3} = \int \frac{d(x+3)}{x+3} = \ln |x+3| + C$
@@ -99,6 +103,8 @@ $d (f(x)) = f'(x) dx$
 4. $\int \frac{dx}{\sqrt{4 - 3x^2}} = \int \frac{dx}{\sqrt{2 ^ 2 - (\sqrt(3)x)^2}} = \frac{1}{\sqrt{3}} \int \frac{d(\sqrt{3})}{\sqrt{2 ^ 2 - (\sqrt{3}x)^2}} = \frac{1}{\sqrt{3}} \arcsin \frac{\sqrt{3}}{2} + C$
 5. $\int \sin^2 6x dx = \frac{1}{2} \int (1 - \cos 12x) dx = \frac{1}{2} (x - \frac{1}{12} sin(12x)) + C$
 6. $\int \tg x dx = \int \frac{\sin x}{\cos x} dx = -\int \frac{d(cos x)}{cos x} = -\ln |cos x | + C$
+
+
 
 ** Метод интегрирования подстановкой (замена переменной)
 

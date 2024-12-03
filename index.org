@@ -16,3 +16,5 @@
 #+INCLUDE: ./integrals/integrals.org
 
 #+INCLUDE: ./drobratfun/drobratfun.org
+
+#+INCLUDE: ./integrals/inttrig.org
