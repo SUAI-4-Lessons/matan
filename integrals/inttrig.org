@@ -1,0 +1,68 @@
+* Интегрирование тригонометрических функций
+
+** Универсиальная тригонеметрическая подстановка
+
+$$ t = \tan \frac{x}{2} $$
+
+$$ dx = \frac{2}{1 + t^2} dt $$
+
+Тогда может выразить все остальные тригонометрические функции:
+
+$$ \sin x = \frac{2t}{1 + t^2} $$
+
+$$ \cos x = \frac{1- t^2}{1 + t^2} $$
+
+
+
+$$ R (cos x; sin x) \to R(t) $$
+
+*** TODO Примеры
+
+$$ \int \frac{dx}{3 + \sin x + \cos x} = \frac{\frac{2}{1+t^2}dt}{3 +
+  \frac{2t}{1+t^2} + \frac{1-t^2}{1+t^2}} = 2 \cdot \int \frac{dt}{3 +
+    3t^2 + 2t + 1 - t^2} = 2 \int \frac{dt}{2t^2+2t + 4} =
+  \int \frac{dt}{t^2 + t + 2} = ...  $$
+
+
+** Интегралы тип $\int \sin^m x \cos^n x dx$
+
+1. Если n - целое положительное нечётное число, то $\sin x = t$
+2. Если m - целое положительное нечётное число, то $\cos x = t$
+3. Если m и n - цел. неотр и чётные то применяем формулу понижения
+   степени
+4. Если m + n - целое, отриц. и чётное, то $\tan x = t$
+
+
+*** Пример
+$\cos^4 x = (1 - \sin^2 x)^2$
+
+$$ \int \sin^4 x \cos^5 x dx = \int \sin^4 x \cos^4 x d(\sin x)  =
+\int (\sin^4x - 2\sin^6 x + \sin^8x) d(\sin x) = \frac{\sin^5x}{5} -
+\frac{2\sin^7x}{7} + \frac{\sin^9 x}{9} + C
+$$
+
+другой способ решения:
+
+1. $\sin x = t$, $\cos x = \sqrt{1-t^2}$, $x = \arcsin t$
+
+там подставить и всё сделать я не успел
+
+** Интегралы типа, ну типа
+
+$$ \int R(x; \sqrt{a^2-x^2}) dx \to x = a \cdot \sin t $$
+$$ \int R(x; \sqrt{a^2+x^2}) dx \to x = a \cdot \tan t $$
+$$ \int R(x; \sqrt{x^2-a^2}) dx \to x \frac{a}{\sin t}$$
+
+
+Приводятся интегралу от суммы рационально зависящих от
+тригонометрических функций.
+
+*** Пример
+
+Вычислить интеграл
+
+$$ \int \frac{\sqrt{4 - x^2}}{x^2} dx = | x = 2 \sin t; dx = 2 \cos t
+dt | = \int \frac{\sqrt{4 - 4 \sin^2 t}}{4 \sin^2 t} \cdot 2 \cos t
+dt = \int \frac{cos^2 t}{sin^2 t}dt = \int \frac{1}{\sin^2 t} dt -
+\int dt = -\cot (\arcsin \frac{x}{2}) - \arcsin{\frac{x}{2}}  $$
+
